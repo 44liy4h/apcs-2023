@@ -88,7 +88,11 @@ public class Scramble {
      * @param arr array of integers to shuffle
      */
     public static void shuffle(int arr[]) {
+        int n = arr.length
         // TODO
+        for ( i = n - 1; i >= 1; i --;
+        int j = Math.random()
+        )
     }
 
     public static void main(String args[]) {
