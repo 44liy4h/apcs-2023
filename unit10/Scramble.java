@@ -3,8 +3,17 @@ package unit10;
 import java.util.Arrays;
 
 public class Scramble {
+    // added code
+    for(
+    int i = 0;i<arr.length;i++)
+    {
+        System.out.print(arr[i] + "");
+    }System.out.println();
+
+   bubbleSort(arr);
 
     /**
+     
      * Sorts a provided array using bubble sort.
      * Algorithm: loop through the array with two nested loops.
      * - compare pairs of adjacent elements; swap them if necessary.
