@@ -80,6 +80,17 @@ public class Scramble {
      */
     public static void shuffle(int arr[]) {
         // TODO
+        if (n <= 1) {
+            return;
+        }
+        Random rand = new Random();
+        int index = rand.nextInt(n);
+        // Swap elements at index n-1 and index
+        int temp = arr[n-1];
+        arr[n-1] = arr[index];
+        arr[index] = temp;
+        shuffleArray(arr, n-1); 
+
     }
 
     public static void main(String args[]) {
