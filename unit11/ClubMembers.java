@@ -1,5 +1,6 @@
 package unit11;
 
+import java.lang.reflect.Member;
 // 2021 FRQ #3
 // https://apcentral.collegeboard.org/media/pdf/ap21-frq-computer-science-a.pdf#page=10
 import java.util.ArrayList;
@@ -43,12 +44,37 @@ public class ClubMembers {
     }
 
     public void addMembers(String[] names, int gradYear) {
-        // TODO a
+      memberList = new memberList;
+      
+       for ( int i=0; i< memberList.size();i++){
+            
+        MemberInfo newMember = new MemberInfo(names, gradYear, true) {
+            
+        };
+        memberList.add(newMember) 
 
-    }
+
+                
+            }
+       }
+      
+
+    
 
     public ArrayList<MemberInfo> removeMembers(int year) {
         // TODO b;
+        ArrayList<MemberInfo> removing = new ArrayList<MemberInfo>();{
+            for (int i=memberList.length(); i >= 0; i--){
+                if (memberList.get(i).getGradYear(); gradYear <= 2018){
+                   if (memberList.get(i).inGoodStanding()== true) 
+                        removing.add(memberList.get(i);
+                }
+              //  return removing;
+
+            } 
+                
+                    
+        }
         return null; // replace me
     }
 
