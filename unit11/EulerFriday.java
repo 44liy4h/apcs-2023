@@ -1,4 +1,7 @@
+import unit10.Recur;
 package unit11;
+
+import javax.lang.model.util.ElementScanner14;
 
 public class EulerFriday {
 
@@ -13,7 +16,51 @@ public class EulerFriday {
 
         // 2
 
+        int sum = 0;
+        for (int i=1; i<1000; i++;) {
+        if (i%3 == 0; || i%5==0){
+            sum+=i;
+        }
+
+        }
+    System.out.println(sum);
+    //2
+    sum = 0;
+    int a = 1;
+    int b = 2;
+    while(two<4000000){}
+    int c = a+b;
+
+    b=a+b;
+    a=b;
+    b=c;
+    if(b%2==0){
+        sum += b;
     }
+    System.out.println(sum);
+    } it 
+    long factorme = 600851475143;
+    int factor = 2;
+    while(){
+
+        //four'/
+        if (factorMe % 2 ==0){
+            factorme /= factor;
+    else 
+       factor++;
+        }
+    }
+//4
+int largest = 0;
+for(int i=100; i<999; i++);
+   for(int j=100; j<999; j++) {
+    if (Recur.pot(product)){
+        int product = i*j;
+        String productString = Integer.toString(product);
+
+    }
+   }
+
 
     static int[] prob8scaffold() {
         // woo java 13 supports multi-line strings!
@@ -50,3 +97,5 @@ public class EulerFriday {
     }
 
 }
+  public int LCM(int a, int b)
+    System.out.println(largestpa)
