@@ -3,6 +3,7 @@ package unit11;
 // 2021 FRQ #4
 // https://apcentral.collegeboard.org/media/pdf/ap21-frq-computer-science-a.pdf#page=14
 import java.util.Arrays;
+import java.util.Set;
 
 public class ArrayResizer {
     public static boolean isNonZeroRow(int[][] array2D, int r) {
@@ -21,7 +22,12 @@ public class ArrayResizer {
         return count;
     }
 
+    /**
+     * @param array2D
+     * @return
+     */
     public static int[][] resize(int[][] array2D) {
+        array2D.()
         // TODO part b
 
         return null; // replace me
