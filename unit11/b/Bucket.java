@@ -6,6 +6,7 @@ public class Bucket {
 
     public Bucket(int value) {
         this.value = value;
+       
     }
 
     public int getValue() {
@@ -14,6 +15,7 @@ public class Bucket {
 
     public void setValue(int value) {
         this.value = value;
+        
     }
 
     // to explore...
@@ -40,7 +42,7 @@ public class Bucket {
     public static void main(String[] args) {
         // explore: predict before uncommenting
         int value = 3;
-        // value = 5;
+        // value = 5;                 
         System.out.println(value);
 
         // System.out.println("Within method:");

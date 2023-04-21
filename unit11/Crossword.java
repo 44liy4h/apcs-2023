@@ -1,5 +1,7 @@
 package unit11;
 
+import java.lang.reflect.Array;
+
 // 2016 FRQ #3
 // https://secure-media.collegeboard.org/digitalServices/pdf/ap/ap16_frq_computer_science_a.pdf#page=12
 
@@ -17,7 +19,7 @@ class Square {
 
     // There may be instance variables, constructors, and methods that are not
     // shown.
-    private boolean isBlack;
+    public boolean isBlack;
     private int num;
 
     public int getNum() {
@@ -25,18 +27,22 @@ class Square {
     }
 
     public boolean isBlack() {
-        return isBlack;
+      
+      int blackSquare; 
+      int whiteSquare;
+     // for (blackSquare[r][c])
+    return false;
     }
 }
 
 public class Crossword {
+    private Square[][] puzzle;
+    
     /**
      * Each element is a Square object with a color (black or white) and a number.
      * puzzle[r][c] represents the square in row r, column c.
      * There is at least one row in the puzzle.
      */
-    private Square[][] puzzle;
-
     /**
      * Constructs a crossword puzzle grid.
      * Precondition: There is at least one row in blackSquares.
@@ -49,20 +55,26 @@ public class Crossword {
      */
     public Crossword(boolean[][] blackSquares) {
         /* to be implemented in part (b) */
+         Square[][] r;
+        Square[][] c;
+       // if (r.isBlack && c.isBlack){
+         //  return true;
+        }
+          
 
-    }
+   
 
     /**
      * Returns true if the square at row r, column c should be labeled with a
      * positive number;
-     * false otherwise.
+     * false otherwise.         
      * The square at row r, column c is black if and only if blackSquares[r][c] is
      * true.
      * Precondition: r and c are valid indexes in blackSquares.
      */
     private boolean toBeLabeled(int r, int c, boolean[][] blackSquares) {
         /* to be implemented in part (a) */
-
+        //for (int r % 2 = 0 ||int c % 2 = 0;)
         return false; // replace me!
     }
 
