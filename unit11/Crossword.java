@@ -19,7 +19,7 @@ class Square {
 
     // There may be instance variables, constructors, and methods that are not
     // shown.
-    private boolean isBlack;
+    public boolean isBlack;
     private int num;
 
     public int getNum() {
@@ -27,13 +27,17 @@ class Square {
     }
 
     public boolean isBlack() {
+      
       int blackSquare; 
       int whiteSquare;
-      for (blackSquare[r][c])
+     // for (blackSquare[r][c])
+    return false;
     }
 }
 
 public class Crossword {
+    private Square[][] puzzle;
+    
     /**
      * Each element is a Square object with a color (black or white) and a number.
      * puzzle[r][c] represents the square in row r, column c.
@@ -51,14 +55,14 @@ public class Crossword {
      */
     public Crossword(boolean[][] blackSquares) {
         /* to be implemented in part (b) */
-         boolean[] [] r;
-        boolean[][] c;
-        if (r .isBlack && c.isBlack){
-           return true;
+         Square[][] r;
+        Square[][] c;
+       // if (r.isBlack && c.isBlack){
+         //  return true;
         }
           
 
-    }
+   
 
     /**
      * Returns true if the square at row r, column c should be labeled with a

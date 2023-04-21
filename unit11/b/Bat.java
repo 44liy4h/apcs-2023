@@ -42,7 +42,7 @@ public class Bat {
     public static void main(String[] args) {
         // why do we need to instantiate a Bat?
         Bat b = new Bat();
-       b.conditionalTest(3, -2)
+       b.conditionalTest(3, -2);
     
 
         // invent an array

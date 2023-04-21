@@ -84,22 +84,25 @@ public class Scramble {
 
     /**
      * TODO how does this function work?
+     * for i from n−1 down to 1 do
+     * ← random integer j such that 0 ≤ j ≤ i
+     * exchange [] and []
      * 
      * @param arr array of integers to shuffle
      */
     public static void shuffle(int arr[]) {
         int n = arr.length
         // TODO
-        if (n <= 1) {
-            return;
+        int n = arr.length;
+        // TODO
+        for (int i = n - 1; i >= 1; i--) {
+            int j = (int) (Math.random() * (i + 1));
+
+            int temp = arr[i];
+            arr[i] = arr[j];
+            arr[j] = temp;
+
         }
-        Random rand = new Random();
-        int index = rand.nextInt(n);
-        // Swap elements at index n-1 and index
-        int temp = arr[n-1];
-        arr[n-1] = arr[index];
-        arr[index] = temp;
-        shuffleArray(arr, n-1); 
 
     }
 
