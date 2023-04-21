@@ -63,7 +63,7 @@ public class Crossword {
     /**
      * Returns true if the square at row r, column c should be labeled with a
      * positive number;
-     * false otherwise.
+     * false otherwise.         
      * The square at row r, column c is black if and only if blackSquares[r][c] is
      * true.
      * Precondition: r and c are valid indexes in blackSquares.
