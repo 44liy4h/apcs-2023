@@ -4,6 +4,9 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
+import javax.print.event.PrintJobListener;
+import javax.sound.sampled.SourceDataLine;
+
 public class SpellingBee {
 
     private char[] letters;
