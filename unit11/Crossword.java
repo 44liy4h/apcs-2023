@@ -1,5 +1,7 @@
 package unit11;
 
+import java.lang.reflect.Array;
+
 // 2016 FRQ #3
 // https://secure-media.collegeboard.org/digitalServices/pdf/ap/ap16_frq_computer_science_a.pdf#page=12
 
@@ -25,7 +27,9 @@ class Square {
     }
 
     public boolean isBlack() {
-        return isBlack;
+      int blackSquare; 
+      int whiteSquare;
+      for (blackSquare[r][c])
     }
 }
 
@@ -35,8 +39,6 @@ public class Crossword {
      * puzzle[r][c] represents the square in row r, column c.
      * There is at least one row in the puzzle.
      */
-    private Square[][] puzzle;
-
     /**
      * Constructs a crossword puzzle grid.
      * Precondition: There is at least one row in blackSquares.
@@ -49,6 +51,12 @@ public class Crossword {
      */
     public Crossword(boolean[][] blackSquares) {
         /* to be implemented in part (b) */
+         boolean[] [] r;
+        boolean[][] c;
+        if (r .isBlack && c.isBlack){
+           return true;
+        }
+          
 
     }
 
@@ -62,7 +70,7 @@ public class Crossword {
      */
     private boolean toBeLabeled(int r, int c, boolean[][] blackSquares) {
         /* to be implemented in part (a) */
-
+        //for (int r % 2 = 0 ||int c % 2 = 0;)
         return false; // replace me!
     }
 
