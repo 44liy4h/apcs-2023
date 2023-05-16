@@ -4,6 +4,22 @@ Anacortes High School - AP Computer Science A - Spring 2023 Course Materials
 
 ## Homework 👩‍💻👨‍💻
 
+- Due Monday, May 15, by period end: [Project Proposal](unit12/12-6.md#homework)
+- Due Monday, May 8, before class: [Data Ethics](unit12/12-1.md#homework): 📜 Essay or Conversation
+
+## Unit 12 🧑‍🏫
+
+- Tuesday, May 16: Lesson 12-8 [Project Work](unit12/12-8.md)
+- Monday, May 15: Lesson 12-7 [Project Proposals 🌞](unit12/12-7.md)
+- Friday, May 12: Lesson 12-6 [Projects 🚧](unit12/12-6.md)
+- Thursday, May 11: Lesson 12-5 [Beyond Data❓](unit12/12-5.md)
+- Tuesday, May 9: Lesson 12-4 [Exploring Data](unit12/12-4.md)
+- Monday, May 8: Lesson 12-3 [Collecting Data](unit12/12-3.md)
+- Friday, May 5 🌮: Lesson 12-2 [From Java to Python 🐍](unit12/12-2.md)
+- Thursday, May 4 🌌: Lesson 12-1 [Beyond Java](unit12/12-1.md)
+
+## Homework, Units 10 & 11 👩‍💻👨‍💻
+
 - Due Wednesday, May 3, before exam: [csawesome's 11.1 Post Test](unit11/11-11.md#homework)
 - Due Monday, April 24, before class: [Code-a-FRQ](unit11/11-9.md#homework): Crossword, or alternative
 - Due Thursday, April 20, before class: [Boot Camp Drills](unit11/11-7.md#homework): choose two!
@@ -20,6 +36,10 @@ Anacortes High School - AP Computer Science A - Spring 2023 Course Materials
 
 ## Unit 11 🧑‍🏫
 
+- Monday, May 2: Lesson 11-15 [Study Day](unit11/11-15.md)
+- Monday, May 1: Lesson 11-14 [Study Day](unit11/11-14.md)
+- Friday, April 28: Lesson 11-13 [Code Review](unit11/11-13.md)
+- Thursday, April 27: Lesson 11-12 [Dice 🎲🎲](unit11/11-12.md)
 - Tuesday, April 25: Lesson 11-11 [🐝-Review and beyond](unit11/11-11.md)
 - Monday, April 24: Lesson 11-10 [🐝-Review](unit11/11-10.md)
 - Friday, April 21: Lesson 11-9 [🐝-Review](unit11/11-9.md)
